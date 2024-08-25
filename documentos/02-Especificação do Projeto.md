@@ -8,7 +8,16 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Arquitetura e Tecnologias
 
-o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.
+Segue abaixo a tabela com as tecnologias utilizadas no desenvolvimento da aplicação.
+
+|Função						         | Ferramenta                                                           |
+|---------------------    |----------------------------------------------------------------------|
+|IDE						         | Visual Studio Code                  |
+|Linguagem Frontend			 | React Native											   |
+|Linguagem Backend			 | Node.js													   |
+|Framework Frontend			 | Expo												         |
+|Framework Backend			 | Express.js												   |
+|Banco de dados				   | MongoDB												     |
 
 ## Project Model Canvas
 
