@@ -1,6 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Na sociedade moderna, a busca por um estilo de vida saudável se tornou uma prioridade, impulsionada pela promessa de maior bem-estar, energia e qualidade de vida. No entanto, atingir esse objetivo requer mais do que uma alimentação equilibrada: a prática regular de exercícios físicos é essencial para a saúde tanto física quanto mental.
+
+Diversos estudos demonstram que a atividade física regular funciona como um poderoso escudo para a saúde, independentemente da idade, ajudando a prevenir e controlar doenças como problemas cardíacos, diabetes tipo 2 e alguns tipos de câncer. Concordamos com Melo et al. (2023), que destacam a importância da atividade física regular na manutenção da saúde mental, ao reduzir níveis de ansiedade, estresse e sintomas de depressão, melhorar o humor, aumentar o bem-estar físico e psicológico, além de beneficiar a disposição, a saúde cognitiva e a memória.
+
+Apesar dos reconhecidos benefícios da atividade física, o sedentarismo continua sendo um dos cinco principais fatores de risco para mortes precoces em todo o mundo (SOUSA et al., 2023). Esse número pode crescer ainda mais, especialmente após a atualização das recomendações da Organização Mundial da Saúde (OMS), que estabelece que adultos entre 18 e 64 anos devem praticar entre 150 a 300 minutos semanais de atividade aeróbica de intensidade moderada, ou 75 a 150 minutos de intensidade vigorosa, além de incluir exercícios de fortalecimento muscular em dois ou mais dias da semana, envolvendo todos os principais grupos musculares (WHO, 2020).
+
+Diante desse cenário, apresentamos nossa aplicação, projetada para ajudar o maior número possível de pessoas a superar o sedentarismo e a estabelecer uma rotina regular de exercícios físicos.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
