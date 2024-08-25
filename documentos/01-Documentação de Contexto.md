@@ -9,11 +9,10 @@ Apesar dos reconhecidos benefícios da atividade física, o sedentarismo continu
 Diante desse cenário em que os serviços online já fazem parte do nosso cotidiano, queremos desenvolver uma aplicação para nosso parceiro Wallace Brasil, personal trainer, que o auxiliará a organizar melhor seus alunos e seus treinos, sejam eles presenciais ou de consultoria online. Além de facilitar o acesso aos treinos, o aplicativo oferece exemplos de execução de diversos exercícios, ajudando os alunos a esclarecer eventuais dúvidas sobre como realizar os movimentos prescritos. Com essa solução, buscamos otimizar o trabalho do personal trainer, proporcionando mais praticidade e um controle mais eficiente sobre os alunos de consultoria online.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+O uso de ferramentas tecnológicas tem se demonstrado fundamental para a eficiência dos procedimentos e processos de um prestador de serviço nos últimos anos, principalmente após a pandemia de 2020, e para o personal trainer não foi diferente. Este profissional pode se beneficiar muito com a utlização dessas ferramentas, especialmente na organização e acompanhamento dos seus alunos de consultoria online. 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+No caso do nosso parceiro, que atua tanto no atendimento presencial quanto no online, estamos focados em otimizar a gestão dos seus alunos e, consequentemente, do seu tempo. O atendimento presencial, em particular, envolve custos com deslocamento e limita os horários disponíveis, o que reduz a quantidade de alunos que ele pode atender.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
