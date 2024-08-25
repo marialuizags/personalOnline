@@ -16,21 +16,15 @@ No caso do nosso parceiro, que atua tanto no atendimento presencial quanto no on
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolver uma aplicação que possibilite ao personal trainer organizar seus alunos e os seus treinos, com foco tanto nos alunos presenciais quanto, principalmente, nos de consultoria online, visando otimizar o tempo de deslocamento e ampliar a eficiência do atendimento.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+A aplicação também se propõe a otimizar o trabalho do personal trainer, proporcionando mais praticidade e um controle mais eficiente dos alunos de consultoria online, o que poderá permitir ao parceiro aumentar seu número de atendimentos. Além disso o aplicativo contará com exemplos de execução de diversos exercícios para ajudar os alunos a esclarecer eventuais dúvidas sobre como realizar os movimentos prescritos, sem a necessidade do auxílio imediato do personal. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O desenvolvimento da aplicação se justifica pela necessidade de modernizar e otimizar os processos de trabalho do personal trainer Wallace Brasil, nosso parceiro, especialmente no atendimento a alunos de consultoria online. A solução visa centralizar a organização dos treinos, facilitar o acompanhamento dos alunos e oferecer exemplos visuais de exercícios, melhorando a eficiência e a qualidade do serviço prestado.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além disso, a aplicação permitirá uma gestão mais eficaz do tempo do profissional, possibilitando o atendimento de um maior número de alunos sem comprometer a qualidade. Isso não apenas atende a uma demanda crescente no mercado, mas também contribui para a expansão e competitividade do negócio de nosso parceiro.
 
 ## Relação com a Extensão Universitária
 
