@@ -25,45 +25,37 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| Permitir que o administrador cadastre contas de alunos. | ALTA |
+|RF-02| Permitir que o administrador altere os dados cadastrados das contas dos alunos. | ALTA |
+|RF-03| Permitir que o administrador exclua usuários cadastrados. | ALTA |
+|RF-04| Permitir que o usuário realize login através de seu e-mail e senha. | MÉDIA |
+|RF-05| Permitir que o administrador faça o cadastro dos treinos. | MÉDIA |
+|RF-06| Permitir o administrador associar um treino a um aluno. | MÉDIA |
+|RF-07| Permitir o usuário aluno e administrador a visualização dos treinos cadastrados. | MÉDIA |
+|RF-08| Permitir o administrador altere ou exclua um treino. | MÉDIA |
+|RF-09| Permitir o usuário aluno a marcar os exercícios como realizados. | BAIXA |
+|RF-10| Permitir que o exercício marcado como realizado seja registrado no histórico do aluno. | BAIXA |
+|RF-11| Permitir que o usuário acesse o histórico de suas sessões de treino anteriores. | BAIXA |
+|RF-12| Permitir que o usuário visualize e atualize suas informações pessoais, como nome, contato, foto de perfil e alteração de senha. | BAIXA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-01| A aplicação deve ser compatível com sistemas Android e iOS | ALTA |
+|RNF-02| A aplicação deve possuir interface intuitiva e fácil de usar. | MÉDIA |
+|RNF-03| A aplicação deve ser capaz de processar e carregar as informações da conta do usuário de forma rápida para garantir uma experiência de usuário fluida e responsiva. | MÉDIA |
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O projeto deverá ser entregue até o final do semestre. |
+|02| A equipe não poderá terceirizar o desenvolvimento. |
+|03| O desenvolvimento deverá respeitar o orçamento acordado com o cliente. |
 
 ## Diagrama de Casos de Uso
 
