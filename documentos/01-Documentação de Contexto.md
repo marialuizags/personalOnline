@@ -6,7 +6,7 @@ Diversos estudos demonstram que a atividade física regular funciona como um pod
 
 Apesar dos reconhecidos benefícios da atividade física, o sedentarismo continua sendo um dos cinco principais fatores de risco para mortes precoces em todo o mundo (SOUSA et al., 2023). Esse número pode crescer ainda mais, especialmente após a atualização das recomendações da Organização Mundial da Saúde (OMS), que estabelece que adultos entre 18 e 64 anos devem praticar entre 150 a 300 minutos semanais de atividade aeróbica de intensidade moderada, ou 75 a 150 minutos de intensidade vigorosa, além de incluir exercícios de fortalecimento muscular em dois ou mais dias da semana, envolvendo todos os principais grupos musculares (WHO, 2020).
 
-Diante desse cenário, apresentamos nossa aplicação, projetada para ajudar o maior número possível de pessoas a superar o sedentarismo e a estabelecer uma rotina regular de exercícios físicos.
+Diante desse cenário em que os serviços online já fazem parte do nosso cotidiano, queremos desenvolver uma aplicação para nosso parceiro Wallace Brasil, personal trainer, que o auxiliará a organizar melhor seus alunos e seus treinos, sejam eles presenciais ou de consultoria online. Além de facilitar o acesso aos treinos, o aplicativo oferece exemplos de execução de diversos exercícios, ajudando os alunos a esclarecer eventuais dúvidas sobre como realizar os movimentos prescritos. Com essa solução, buscamos otimizar o trabalho do personal trainer, proporcionando mais praticidade e um controle mais eficiente sobre os alunos de consultoria online.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
