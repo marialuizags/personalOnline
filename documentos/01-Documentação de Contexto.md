@@ -30,6 +30,14 @@ Além disso, a aplicação permitirá uma gestão mais eficaz do tempo do profis
 
 Relacionar a situação-problema da organização com o impacto social esperado com a implantação do sistema sociotécnico.
 
+Podemos citar o impacto social para cada parte envolvida da seguinte forma:
+
+*Para o profissional Wallace Brasil:* A aplicação auxilia o profissional na organização de seus alunos e os seus treinos, tanto os presenciais como os de consultoria online, de forma mais eficiente e otimizada, permitindo ao parceiro aumentar o número de atendimentos prestados. A aplicação por ser fácil, integrada e eficiente, também ajuda na fidelização do aluno. 
+
+*Para a eqipe de desenvolvimento:* A equipe responsável pelo desenvolvimento do sistema tem uma oportunidade única de aplicar os conhecimentos adquiridos durante todo o curso, ampliando sua experiência educacional e se preparando para os desafios do mercado de trabalho. A implementação bem-sucedida da aplicação evidencia o esforço de todos os integrantes para a entrega de um produto que agregue valor ao parceiro e à comunidade.
+
+*Para a comunidade e Universidade:* O projeto integra o ambiente acadêmico com a sociedade ao criar um sistema socio-tecnológico voltado para a inclusão digital de pequenos prestadores, evidenciando o impacto social significativo que a extensão universitária pode ter na comunidade. Ao unir teoria e prática para resolver desafios reais, a universidade não só atende às demandas da sociedade, mas também forma profissionais capacitados, destacando seu papel transformador que ultrapassa as fronteiras do campus e contribui para um desenvolvimento sustentável e inclusivo.
+
 ## Descrição do Parceiro
 
 Apresente uma descrição resumida sobre a organização onde o projeto será desenvolvido para que possa ser compreendido o cenário sistema sociotécnico.
