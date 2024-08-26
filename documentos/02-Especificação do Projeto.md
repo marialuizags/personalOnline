@@ -1,10 +1,7 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+Este documento tem como objetivo apresentar uma visão completa e detalhada das metas, requisitos e funcionalidades que nortearão o desenvolvimento deste projeto. Ele atua como a base conceitual do projeto, oferecendo uma perspectiva ampla e organizada de todas as características planejadas para o software.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Arquitetura e Tecnologias
 
