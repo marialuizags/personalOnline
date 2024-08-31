@@ -66,7 +66,8 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ## Diagrama de Casos de Uso
 
-![UML use case_page-0001](https://github.com/user-attachments/assets/acf4a270-25b1-4525-88da-78c7e45a126c)
+![Projeto personal-1](https://github.com/user-attachments/assets/be523a9c-5c19-4f5d-a8e4-aab8872c63a5)
+
 
 
 ## Modelo ER (Projeto Conceitual)
