@@ -28,18 +28,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Permitir que o administrador cadastre contas de alunos. | ALTA |
-|RF-02| Permitir que o administrador altere os dados cadastrados das contas dos alunos. | ALTA |
+|RF-01| Permitir que o administrador cadastre sua conta. | ALTA |
+|RF-02| Permitir que o administrador cadastre contas de alunos. | ALTA |
 |RF-03| Permitir que o administrador exclua usuários cadastrados. | ALTA |
-|RF-04| Permitir que o usuário realize login através de seu e-mail e senha. | MÉDIA |
-|RF-05| Permitir que o administrador faça o cadastro dos treinos. | MÉDIA |
-|RF-06| Permitir o administrador associar um treino a um aluno. | MÉDIA |
-|RF-07| Permitir o usuário aluno e administrador a visualização dos treinos cadastrados. | MÉDIA |
-|RF-08| Permitir o administrador altere ou exclua um treino. | MÉDIA |
-|RF-09| Permitir o usuário aluno a marcar os exercícios como realizados. | BAIXA |
-|RF-10| Permitir que o exercício marcado como realizado seja registrado no histórico do aluno. | BAIXA |
-|RF-11| Permitir que o usuário acesse o histórico de suas sessões de treino anteriores. | BAIXA |
-|RF-12| Permitir que o usuário visualize e atualize suas informações pessoais, como nome, contato, foto de perfil e alteração de senha. | BAIXA |
+|RF-04| Permitir que o administrador visualize e pesquise os alunos cadastrados. | ALTA |
+|RF-05| Permitir que usuário e o administrador realize login através de seu e-mail e senha. | ALTA |
+|RF-06| Permitir que o administrador faça o cadastro dos treinos. | ALTA |
+|RF-07| Permitir o administrador associar um treino a um aluno. | ALTA |
+|RF-08| Permitir o usuário aluno e administrador a visualização dos treinos cadastrados. | MÉDIA |
+|RF-09| Permitir que o usuário visualize a execução do exercício. | MÉDIA |
+|RF-10| Permitir que o administrador altere ou exclua um treino. | MÉDIA |
+|RF-11| Permitir o usuário aluno a marcar os treinos como realizados. | BAIXA |
+|RF-12| Permitir que o treino marcado como realizado seja registrado no histórico do aluno. | BAIXA |
+|RF-13| Permitir que o usuário acesse o histórico de suas sessões de treino anteriores. | BAIXA |
+|RF-14| Permitir que o administrador acesse o histórico de treinos de seus alunos. | BAIXA |
+|RF-15| Permitir que o usuário visualize e atualize suas informações pessoais, como nome, contato, foto de perfil e alteração de senha. | BAIXA |
+|RF-16| Permitir que o usuário e administrador façam o logout da conta. | BAIXA |
 
 
 ### Requisitos não Funcionais
