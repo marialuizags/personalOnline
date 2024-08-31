@@ -14,7 +14,7 @@ Segue abaixo a tabela com as tecnologias utilizadas no desenvolvimento da aplica
 |Linguagem Backend			 | Node.js													   |
 |Framework Frontend			 | Expo												         |
 |Framework Backend			 | Express.js												   |
-|Banco de dados				   | MongoDB												     |
+|Banco de dados				   | PostgreSQL												    |
 
 ## Project Model Canvas
 
