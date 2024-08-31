@@ -46,4 +46,4 @@ O projeto integra o ambiente acadêmico com a sociedade ao criar um sistema soci
 
 ## Descrição do Parceiro
 
-Nosso parceiro se chama Wallace Barbosa, que trabalha como personal trainer e utiliza o nome de Wallace Brasil para seu perfil profissional. Ele atua há mais de XX anos como personal trainer na cidade de Belo Horizonte, através de atendimentos presenciais e de consultorias online. 
+Nosso parceiro se chama Wallace Barbosa, que trabalha como personal trainer e utiliza o nome de Wallace Brasil para seu perfil profissional. Ele atua há mais de 15 anos como personal trainer na cidade de Belo Horizonte, através de atendimentos presenciais e de consultorias online. 
