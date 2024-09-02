@@ -1,7 +1,7 @@
 # Implantação do Software
 
 
-Planejamento da Implantação
+### Planejamento da Implantação
 Implantar a aplicação em um ambiente de produção, configurando servidores e garantindo escalabilidade e confiabilidade. Ao seguir essa abordagem estruturada, podemos garantir uma implementação bem-sucedida do nosso projeto, aproveitando as fortes características de cada tecnologia para entregar uma solução de alta qualidade.
 
 # Tecnologias Utilizadas
