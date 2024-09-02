@@ -13,6 +13,8 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 •	Design: Figma para design de UI/UX.
 
+•      Backend
+
 •	Tecnologia: Node.js com Express.js
 
 •	Banco de Dados: PostgreSQL para dados relacionais ou MongoDB para dados não relacionais.
