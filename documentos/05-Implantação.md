@@ -35,19 +35,19 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 # Processo de Implantação
 
-1.	Planejamento
+### .	Planejamento
 
 •	Escopo e Requisitos: Definir claramente as funcionalidades do aplicativo, requisitos técnicos e objetivos de negócios.
 
 •	Cronograma: Desenvolver um cronograma detalhado com fases de desenvolvimento, testes e lançamento.
 
-3.	Desenvolvimento e Preparação
+###  .	Desenvolvimento e Preparação
 
 •	Configuração de Ambientes: Configurar ambientes de desenvolvimento, testes e produção.
 
 • Desenvolvimento de Frontend e Backend: Desenvolver e integrar o frontend em React Native com o backend em Node.js. Utilizar um controle de versão como Git para gerenciar o código-fonte.
 
-5.	Testes
+###  .	Testes
 
 •	Testes Unitários e de Integração: Implementar testes unitários para funções individuais e testes de integração para garantir que o frontend e o backend funcionem corretamente juntos.
 
@@ -55,19 +55,19 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 •	Testes de Performance: Testar o desempenho do aplicativo sob condições normais e de carga.
 
-7.	Deploy
+###  .	Deploy
 	
 •	Deploy de Backend: Implementar o backend em um ambiente de produção (AWS). Configurar o banco de dados e garantir que todos os serviços estejam funcionando corretamente.
 
 •	Deploy de Frontend: Publicar o aplicativo móvel nas lojas de aplicativos (Google Play e Apple App Store)..
 
-9.	Lançamento e Monitoramento
+###  .	Lançamento e Monitoramento
 
 •	Go Live: Lançar o aplicativo e monitorar a resposta dos usuários e o desempenho do sistema.
 
 •	Monitoramento: Utilizar ferramentas de monitoramento para acompanhar o desempenho do backend e o uso do frontend. Resolver rapidamente quaisquer problemas que surgirem.
 
-11.	Suporte e Manutenção
+###  .	Suporte e Manutenção
 
 •	Suporte ao Cliente: Estabelecer canais de suporte para ajudar os usuários com quaisquer problemas que encontrarem.
 
@@ -75,15 +75,15 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 # Planejamento de Evolução da Aplicação
 
-### Avaliação Contínua
+## Avaliação Contínua
 
-1.	Coleta de Feedback:
+###  .	Coleta de Feedback:
 	
 •	Feedback do cliente e dos Usuários: Implementar funcionalidades para coletar feedback do cliente e usuários diretamente no aplicativo, como pesquisas e opções de comentários.
 
 •	Análise de Métricas: Utilizar ferramentas de análise para monitorar o comportamento dos usuários e identificar áreas para melhorias.
 
-3.	Análise de Desempenho:
+###  .	Análise de Desempenho:
 	
 •	Métricas de Uso: Monitorar métricas de uso, como número de usuários ativos, tempo médio gasto no aplicativo e taxa de retenção.
 
@@ -91,13 +91,13 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 # Planejamento de Novas Funcionalidades
 
-1.	Roadmap de Produto:
+###  .	Roadmap de Produto:
 
 •	Funcionalidades Futuras: Desenvolver um roadmap para futuras funcionalidades com base no feedback do cliente. Exemplos incluem integração com dispositivos de rastreamento de fitness ou funcionalidades sociais.
 
 •	Prioritização: Priorizar novas funcionalidades e melhorias com base na demanda dos usuários e na viabilidade técnica.
 
-3.	Desenvolvimento Contínuo:
+###  .	Desenvolvimento Contínuo:
 	
 •	Sprints Ágeis: Utilizar metodologias ágeis, como Scrum, para planejar e desenvolver novas funcionalidades de forma iterativa.
 
@@ -105,13 +105,13 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 # Atualizações e Lançamentos
 
-1.	Lançamento de Novas Versões:
+###  .	Lançamento de Novas Versões:
 	
 •	Versões Incrementais: Implementar novas versões do aplicativo com base no roadmap, incluindo novos recursos e correções de bugs.
 
 •	Notas de Versão: Fornecer notas de versão detalhadas para informar os usuários sobre novas funcionalidades e melhorias.
 
-3.	Comunicação com Usuários:
+###  .	Comunicação com Usuários:
 	
 •	Notificações e Anúncios: Utilizar notificações e campanhas dentro do aplicativo para comunicar atualizações e novas funcionalidades aos usuários.
 
@@ -119,13 +119,13 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 # Suporte e Adaptação
 
-1.	Suporte Contínuo:
+###  .	Suporte Contínuo:
 
 •	Assistência ao Cliente: Oferecer suporte contínuo para resolver problemas e responder a perguntas dos usuários.
 
 •	Documentação: Manter a documentação de usuário e técnica atualizada com as novas funcionalidades e mudanças.
 
-3.	Adaptação ao Mercado:
+###  .	Adaptação ao Mercado:
 	
 •	Análise de Tendências: Monitorar tendências do setor de fitness e tecnologia para adaptar o aplicativo e manter sua relevância.
 
