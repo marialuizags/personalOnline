@@ -5,7 +5,7 @@ Planejamento da Implantação
 Implantar a aplicação em um ambiente de produção, configurando servidores e garantindo escalabilidade e confiabilidade. Ao seguir essa abordagem estruturada, podemos garantir uma implementação bem-sucedida do nosso projeto, aproveitando as fortes características de cada tecnologia para entregar uma solução de alta qualidade.
 
 # Tecnologias Utilizadas
-•	Frontend:
+### •	Frontend:
 
 •	Tecnologia: React Native  e TypeScript 
 
@@ -13,7 +13,7 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 •	Design: Figma para design de UI/UX.
 
-•      Backend
+### •      Backend
 
 •	Tecnologia: Node.js com Express.js
 
@@ -21,13 +21,13 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 •	Autenticação e Autorização: JWT (JSON Web Tokens) para autenticação de usuários.
 
-•   APIs: RESTful APIs para comunicação entre o frontend e o backend.
+•       APIs: RESTful APIs para comunicação entre o frontend e o backend.
 
-•	Infraestrutura:
+### •	Infraestrutura:
 
 •	Servidores: AWS (EC2 para servidores, RDS para banco de dados)
 
-•	Segurança:
+### •	Segurança:
 
 •	Criptografia: TLS/SSL para comunicação segura.
 
@@ -75,7 +75,7 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 # Planejamento de Evolução da Aplicação
 
-Avaliação Contínua
+### Avaliação Contínua
 
 1.	Coleta de Feedback:
 	
