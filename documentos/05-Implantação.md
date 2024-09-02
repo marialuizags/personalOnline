@@ -8,9 +8,9 @@ Planejamento da Implantação
 Implantar a aplicação em um ambiente de produção, configurando servidores e garantindo escalabilidade e confiabilidade. Ao seguir essa abordagem estruturada, podemos garantir uma implementação bem-sucedida do nosso projeto, aproveitando as fortes características de cada tecnologia para entregar uma solução de alta qualidade.
 
 Tecnologias Utilizadas
-•	Frontend:
-o	Tecnologia: React Native  e TypeScript
-o	Componentes: Expo para desenvolvimento simplificado, Context API para gerenciamento de estado, React Navigation para navegação entre telas.
+•	Frontend:<\br>
+o	Tecnologia: React Native  e TypeScript <\br>
+o	Componentes: Expo para desenvolvimento simplificado, Context API para gerenciamento de estado, React Navigation para navegação entre telas. <\br>
 o	Design: Figma para design de UI/UX.
 o	Tecnologia: Node.js com Express.js
 o	Banco de Dados: PostgreSQL para dados relacionais ou MongoDB para dados não relacionais.
