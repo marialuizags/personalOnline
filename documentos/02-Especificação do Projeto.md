@@ -69,17 +69,12 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 ![Projeto personal-1](https://github.com/user-attachments/assets/be523a9c-5c19-4f5d-a8e4-aab8872c63a5)
 
 
+## Diagrama de classes
+<img width="1012" alt="Captura de Tela 2024-09-01 às 22 39 53" src="https://github.com/user-attachments/assets/cf11b70e-dc7f-4aef-b941-3c7074e18d51">
 
-## Modelo ER (Projeto Conceitual)
-
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
-
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
-
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 ## Projeto da Base de Dados
-
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
+
+<img width="1348" alt="Captura de Tela 2024-08-31 às 18 36 17" src="https://github.com/user-attachments/assets/ccaba8dc-d59f-45b1-adea-5b0e40b24538">
+
