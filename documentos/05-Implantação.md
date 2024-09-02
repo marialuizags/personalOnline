@@ -21,7 +21,7 @@ Implantar a aplicação em um ambiente de produção, configurando servidores e 
 
 •	Autenticação e Autorização: JWT (JSON Web Tokens) para autenticação de usuários.
 
-•       APIs: RESTful APIs para comunicação entre o frontend e o backend.
+•       APIs: AXIOS para comunicação entre o frontend e o backend.
 
 ### •	Infraestrutura:
 
