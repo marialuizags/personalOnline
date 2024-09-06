@@ -5,7 +5,9 @@ Para montar um plano de testes para os requisitos funcionais (RF) listados anter
 **Testes para Requisitos Funcionais de Alta Prioridade**
 
 **RF-01 - Cadastrar conta de administrador**
+
 **Objetivo:** Verificar se o administrador pode cadastrar sua conta.
+
 **Cenário de Teste:**
 Acessar o formulário de cadastro.
 Preencher todos os campos obrigatórios (nome, e-mail, senha).
