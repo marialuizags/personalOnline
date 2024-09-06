@@ -10,6 +10,7 @@ Para montar um plano de testes para os requisitos funcionais (RF) listados anter
 Acessar o formulário de cadastro.
 Preencher todos os campos obrigatórios (nome, e-mail, senha).
 Submeter o formulário.
+
 **Resultado Esperado:** A conta deve ser criada e o administrador redirecionado para a página principal.
 
 **RF-02 - Cadastrar contas de alunos**
