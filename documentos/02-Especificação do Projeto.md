@@ -66,7 +66,8 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ## Diagrama de Casos de Uso
 
-![Projeto personal-1](https://github.com/user-attachments/assets/be523a9c-5c19-4f5d-a8e4-aab8872c63a5)
+![Casos de  Uso alterado](https://github.com/user-attachments/assets/e8d80680-9109-45d3-a435-07a33ba6d60b)
+
 
 
 ## Diagrama de classes
