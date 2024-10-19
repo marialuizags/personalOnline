@@ -1,19 +1,34 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "react-native";
+import { NativeBaseProvider } from "native-base";
+import {
+  useFonts,
+  Roboto_400Regular,
+  Roboto_700Bold,
+} from "@expo-google-fonts/roboto";
+
+import { Routes } from "./src/routes";
+import { Workout } from "@screens/Workout";
+import { ClientRegistration } from "@screens/ClientRegistration";
+import { Profile } from "@screens/Profile";
+
+import { THEME } from "./src/theme";
+import { Loading } from "./src/components/loading";
+
+import { AuthProvider } from "src/context/authContext";
 
 export default function App() {
+  const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
+
   return (
-    <View style={styles.container}>
-      <Text>Home</Text>
-    </View>
+    <AuthProvider>
+      <NativeBaseProvider theme={THEME}>
+        <StatusBar
+          barStyle="light-content"
+          backgroundColor="transparent"
+          translucent
+        />
+        {fontsLoaded ? <Routes /> : <Loading />}
+      </NativeBaseProvider>
+    </AuthProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
