@@ -14,8 +14,9 @@ import axios from 'axios';
 // } 
 
 
-export function userRegister(name, email, phone, password, confirmPassword) {
+export function userRegister(type, name, email, phone, password, confirmPassword) {
     return axios.post("http://10.0.0.168:3333/users/register", {
+        type: type,
         name: name,
         email: email,
         phone: phone,

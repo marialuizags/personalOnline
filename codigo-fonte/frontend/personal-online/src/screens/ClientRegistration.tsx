@@ -15,6 +15,7 @@ import { Input } from "@components/Input";
 import { Button } from "@components/Button";
 import { Formik } from "formik";
 import * as Yup from "yup";
+import { userRegister } from "../services/authServices";
 
 const PHOTO_SIZE = 33;
 
@@ -37,10 +38,16 @@ export function ClientRegistration() {
 
   return (
     <Formik
-      initialValues={{ nome: '', email: '', telefone: '', senhaAntiga: '', novaSenha: '', confirmeNovaSenha: '' }}
+      initialValues={{ name: '', email: '', phone: '', password: '', password_confirm: '' }}
       validationSchema={validationSchema}
       onSubmit={(values) => {
-        console.log(values);
+        userRegister("aluno", values.name, values.email, values.phone, values.password, values.password_confirm)
+        .then((res) => {
+            console.log("Deu certo")
+          })
+          .catch((err) => {
+        console.log("Deu ruim");
+          });
       }}
     >
       {({ handleChange, handleBlur, handleSubmit, values, errors, touched }) => (
@@ -80,10 +87,10 @@ export function ClientRegistration() {
                 placeholder="Nome"
                 onChangeText={handleChange('nome')}
                 onBlur={handleBlur('nome')}
-                value={values.nome}
-                isInvalid={!!(errors.nome && touched.nome)}
+                value={values.name}
+                isInvalid={!!(errors.name && touched.name)}
               />
-              {errors.nome && touched.nome && <Text color="red.500">{errors.nome}</Text>}
+              {errors.name && touched.name && <Text color="red.500">{errors.name}</Text>}
 
               <Input
                 bg="gray.600"
@@ -101,10 +108,10 @@ export function ClientRegistration() {
                 placeholder="(99) 99999-9999"
                 onChangeText={handleChange('telefone')}
                 onBlur={handleBlur('telefone')}
-                value={values.telefone}
-                isInvalid={!!(errors.telefone && touched.telefone)}
+                value={values.phone}
+                isInvalid={!!(errors.phone && touched.phone)}
               />
-              {errors.telefone && touched.telefone && <Text color="red.500">{errors.telefone}</Text>}
+              {errors.phone && touched.phone && <Text color="red.500">{errors.phone}</Text>}
             </Center>
 
             <VStack px={6} mt={12} mb={9}>
@@ -114,36 +121,26 @@ export function ClientRegistration() {
 
               <Input
                 bg="gray.600"
-                placeholder="Senha antiga"
+                placeholder="Senha"
                 secureTextEntry
-                onChangeText={handleChange('senhaAntiga')}
-                onBlur={handleBlur('senhaAntiga')}
-                value={values.senhaAntiga}
-                isInvalid={!!(errors.senhaAntiga && touched.senhaAntiga)}
+                onChangeText={handleChange('senha')}
+                onBlur={handleBlur('senha')}
+                value={values.password}
+                isInvalid={!!(errors.password && touched.password)}
               />
-              {errors.senhaAntiga && touched.senhaAntiga && <Text color="red.500">{errors.senhaAntiga}</Text>}
+              {errors.password && touched.password && <Text color="red.500">{errors.password}</Text>}
 
               <Input
                 bg="gray.600"
-                placeholder="Nova senha"
-                secureTextEntry
-                onChangeText={handleChange('novaSenha')}
-                onBlur={handleBlur('novaSenha')}
-                value={values.novaSenha}
-                isInvalid={!!(errors.novaSenha && touched.novaSenha)}
-              />
-              {errors.novaSenha && touched.novaSenha && <Text color="red.500">{errors.novaSenha}</Text>}
-
-              <Input
-                bg="gray.600"
-                placeholder="Confirme a nova senha"
+                placeholder="Confirme a senha"
                 secureTextEntry
                 onChangeText={handleChange('confirmeNovaSenha')}
                 onBlur={handleBlur('confirmeNovaSenha')}
-                value={values.confirmeNovaSenha}
-                isInvalid={!!(errors.confirmeNovaSenha && touched.confirmeNovaSenha)}
+                value={values.password_confirm}
+                isInvalid={!!(errors.password_confirm && touched.password_confirm)}
               />
-              {errors.confirmeNovaSenha && touched.confirmeNovaSenha && <Text color="red.500">{errors.confirmeNovaSenha}</Text>}
+              {errors.password_confirm && touched.password_confirm && <Text color="red.500">{errors.password_confirm}</Text>}
+
 
               <Center><Button title="Cadastrar" mt={4} onPress={() => handleSubmit()} /></Center>
             </VStack>

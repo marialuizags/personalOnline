@@ -1,3 +1,4 @@
+import { useContext } from 'react';
 import { userRegister } from "../services/authServices";
 import { useNavigation } from "@react-navigation/native";
 import {
@@ -12,6 +13,7 @@ import {
 import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import AuthContext from '../context/authContext'; 
 
 // import Logo from "@assets/logo.png";
 // import BackgroundImg from "@assets/background.png";
@@ -42,6 +44,8 @@ const signUpSchema = yup.object({
     .oneOf([yup.ref("password")], "A confirmação da senha não confere."),
 });
 
+const { signed, setUserId } = useContext(AuthContext);
+
 export function SignUp() {
   const {
     control,
@@ -64,9 +68,10 @@ export function SignUp() {
     password,
     password_confirm,
   }: FormDataProps) {
-    userRegister(name, email, phone, password, password_confirm)
+    userRegister("admin", name, email, phone, password, password_confirm)
       .then((res) => {
-        navigation.navigate("signIn");
+        setUserId(res.data.userId);
+       // setSigned(true);
       })
       .catch((err) => {
         console.log(err.response.data.message);
@@ -95,7 +100,7 @@ export function SignUp() {
         </Center>
 
         <Center>
-          <Text style></Text>
+          <Text></Text>
           <Heading color="gray.100" fontSize="xl" mb={4} fontFamily="heading">
             {/* Crie sua conta */}
           </Heading>
