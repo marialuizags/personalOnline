@@ -1,6 +1,13 @@
 import { createContext, useState } from "react";
 
-const AuthContext = createContext({ signed: false, setSigned, setUserId, userType, setUserType })
+const AuthContext = createContext({
+    signed: false,
+    setSigned: () => { },
+    userId: "",
+    setUserId: () => { },
+    userType: "aluno",
+    setUserType: () => { },
+})
 
 export const AuthProvider = ({ children }) => {
 
@@ -8,11 +15,10 @@ export const AuthProvider = ({ children }) => {
     const [userId, setUserId] = useState(false)
     const [userType, setUserType] = useState(false)
 
-
-    const authObject = { 
-        signed: signed, 
-        setSigned: setSigned, 
-        userId: userId, 
+    const authObject = {
+        signed: signed,
+        setSigned: setSigned,
+        userId: userId,
         setUserId: setUserId,
         userType: userType,
         setUserType: setUserType

@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useState } from "react";
 import { userRegister } from "../services/authServices";
 import { useNavigation } from "@react-navigation/native";
 import {
@@ -13,12 +13,8 @@ import {
 import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import AuthContext from '../context/authContext'; 
-
-// import Logo from "@assets/logo.png";
-// import BackgroundImg from "@assets/background.png";
+import AuthContext from "../context/authContext";
 import BackgroundImg from "@assets/background2.png";
-
 import { Input } from "@components/Input";
 import { Button } from "@components/Button";
 
@@ -44,9 +40,11 @@ const signUpSchema = yup.object({
     .oneOf([yup.ref("password")], "A confirmação da senha não confere."),
 });
 
-const { signed, setUserId } = useContext(AuthContext);
-
 export function SignUp() {
+  const { setUserId, setSigned, setUserType } = useContext(AuthContext);
+  const [loading, setLoading] = useState(false);
+  const navigation = useNavigation();
+
   const {
     control,
     handleSubmit,
@@ -55,26 +53,25 @@ export function SignUp() {
     resolver: yupResolver(signUpSchema),
   });
 
-  const navigation = useNavigation();
-
-  function handleGoBack() {
-    navigation.goBack();
-  }
-
-  function handleSignUp({
+  async function handleSignUp({
     name,
     email,
     phone,
     password,
     password_confirm,
   }: FormDataProps) {
-    userRegister("admin", name, email, phone, password, password_confirm)
+    setLoading(true);
+    await userRegister("admin", name, email, phone, password, password_confirm)
       .then((res) => {
+        setUserType(res.data.usertype);
         setUserId(res.data.userId);
-       // setSigned(true);
+        setSigned(true);
       })
       .catch((err) => {
         console.log(err.response.data.message);
+      })
+      .finally(() => {
+        setLoading(false);
       });
   }
 
@@ -86,23 +83,20 @@ export function SignUp() {
       <Image
         source={BackgroundImg}
         w={1000}
-        defaultSource={BackgroundImg}
         alt="Aparece na tela uma sala de treinamento de boxe com alguns sacos de boxe"
         resizeMode="contain"
         position={"absolute"}
       />
       <VStack flex={1} px={6}>
-        <Center my={36}>
-          {/* <Image source={Logo} alt="GymGo" /> */}
-          {/* <Text color="gray.100" fontSize="sm"> */}
-          {/* Sua motivação diária */}
-          {/* </Text> */}
-        </Center>
-
         <Center>
-          <Text></Text>
-          <Heading color="gray.100" fontSize="xl" mb={4} fontFamily="heading">
-            {/* Crie sua conta */}
+          <Heading
+            color="gray.100"
+            fontSize="xl"
+            mb={4}
+            fontFamily="heading"
+            my={280}
+          >
+            Crie sua conta
           </Heading>
 
           <Controller
@@ -176,25 +170,24 @@ export function SignUp() {
               />
             )}
           />
+
           <Center>
-            {" "}
             <Button
               title="Criar e acessar"
-              mt={0}
+              isLoading={loading}
               onPress={handleSubmit(handleSignUp)}
               w={290}
               h={14}
             />
+
+            <Button
+              title="Voltar para o login"
+              variant="outline"
+              mt={4}
+              onPress={() => navigation.goBack()}
+            />
           </Center>
         </Center>
-
-        <Button
-          title="Voltar para o login"
-          variant="outline"
-          mt={2}
-          left={5}
-          onPress={handleGoBack}
-        />
       </VStack>
     </ScrollView>
   );

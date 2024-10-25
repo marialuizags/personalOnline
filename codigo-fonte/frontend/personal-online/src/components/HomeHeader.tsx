@@ -9,7 +9,7 @@ import { UserPhoto } from "./UserPhoto";
 import { getUserById } from "@services/userServices";
 
 export function HomeHeader() {
-    const { signed, setSigned, userId } = useContext(AuthContext)
+    const { signed, userId, setSigned } = useContext(AuthContext)
 
     const [userData, setUserData] = useState({})
 
